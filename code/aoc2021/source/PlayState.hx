@@ -8,6 +8,7 @@ import days.Day05;
 import days.Day06;
 import days.Day07;
 import days.Day08;
+import days.Day09;
 import days.Day;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -18,7 +19,7 @@ import flixel.util.FlxColor;
 
 class PlayState extends FlxState
 {
-	public static final DAYS:Int = 8;
+	public static final DAYS:Int = 9;
 	private static var txtField:MyScrollText;
 
 	override public function create():Void
