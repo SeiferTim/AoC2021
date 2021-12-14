@@ -1,6 +1,5 @@
 package days;
 
-import flixel.system.FlxAssets.VirtualInputData;
 import openfl.Assets;
 
 using StringTools;
