@@ -136,11 +136,11 @@ class Day09 extends Day
 							heightmap[p.y][p.x] = 9;
 							if (p.x > 0)
 								queue.push(new MyPoint(p.x - 1, p.y));
-							if (p.x < heightmap[0].length-1)
+							if (p.x < heightmap[0].length - 1)
 								queue.push(new MyPoint(p.x + 1, p.y));
 							if (p.y > 0)
 								queue.push(new MyPoint(p.x, p.y - 1));
-							if (p.y < heightmap.length-1)
+							if (p.y < heightmap.length - 1)
 								queue.push(new MyPoint(p.x, p.y + 1));
 						}
 					}
@@ -170,5 +170,15 @@ class MyPoint
 	{
 		x = X;
 		y = Y;
+	}
+
+	public function equals(p:MyPoint):Bool
+	{
+		return x == p.x && y == p.y;
+	}
+
+	public function toString():String
+	{
+		return "(" + x + ", " + y + ")";
 	}
 }
