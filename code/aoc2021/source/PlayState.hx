@@ -15,6 +15,7 @@ import days.Day12;
 import days.Day13;
 import days.Day14;
 import days.Day15;
+import days.Day16;
 import days.Day;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -25,7 +26,7 @@ import flixel.util.FlxColor;
 
 class PlayState extends FlxState
 {
-	public static final DAYS:Int = 15;
+	public static final DAYS:Int = 16;
 
 	private static var txtField:MyScrollText;
 
